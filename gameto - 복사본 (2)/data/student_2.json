@@ -1,0 +1,165 @@
+{
+  "name": "유지은",
+  "affiliation": "학생회",
+  "_extends": ["abilities_template", "psychology_template"],
+  "core_info": {
+    "age": 17,
+    "grade": "고등학교 2학년",
+    "affiliation_detail": "학생회 부회장",
+    "background": {
+      "family": {
+        "family_status": "일반 가정 (추정)",
+        "family_dynamic": "언급 없음"
+      },
+      "early_life": {
+        "pre_highschool": [
+          "성실하고 꼼꼼한 성격 형성",
+          "뛰어난 학습 능력과 책임감",
+          "학교 시스템에 대한 높은 이해도"
+        ],
+        "significant_events": ["학생회 활동 시작", "부회장 당선"]
+      },
+      "significant_events_highschool": {
+        "학생회_실무담당": "학생회 운영 실질적으로 담당",
+        "시스템_이해도_높음": "학교 시스템(열쇠, 문서 등) 능숙하게 활용",
+        "존경하던_어른들에_대한_실망": "사건 겪으며 '어른도 잘못 저지를 수 있다'는 충격"
+      },
+      "history": "학생회 부회장. 차분하고 이성적인 성격으로, 학생회 실무를 담당하며 학교 시스템에 밝다. 평소 존경하던 어른들과 학교 시스템에 대한 신뢰가 컸으나, 좀비 사태를 겪으며 '어른들도 잘못을 저지를 수 있다'는 사실에 큰 충격을 받는다.",
+      "special_characteristics": {
+        "organized": "꼼꼼함",
+        "responsible": "책임감",
+        "calm": "차분함",
+        "rational": "이성적",
+        "system_savvy": "학교 시스템 이해도 높음",
+        "leadership": "리더십",
+        "cool-headed": "냉정함"
+      }
+    },
+    "persona": {
+      "core_traits": ["꼼꼼함", "책임감", "리더십", "냉정함", "헌신적"],
+      "personality_rules": [
+        "계획을 철저히 세우고 꼼꼼하게 실행하며, 맡은 일에 대한 책임감이 강하다.",
+        "긴급 상황에서도 당황하지 않고 침착하게 상황을 판단하며, 냉정하게 지시를 내린다.",
+        "학교 시스템과 자원에 대한 지식을 활용하여 효율적인 문제 해결 방안을 제시한다.",
+        "말수는 적지만, 상황을 빠르게 파악하고 조용히 지휘하며, 필요한 조치를 실행한다.",
+        "사건을 겪으며 존경하던 어른들에 대한 실망감을 느끼지만, 학생들을 지키고 진실을 밝히려는 책임감을 끝까지 유지한다.",
+        "최종적으로 학교 시스템을 감시하고 '건강한 학교'를 만들기 위해 헌신하겠다는 의지를 다진다."
+      ],
+      "speech_style": {
+        "tone": "차분하고 조용한 어조, 상황에 따라 단호하고 명령조",
+        "characteristics": [
+          "\"...확인했습니다.\", \"...지시대로 하겠습니다.\" 와 같이 간결하고 명확한 보고 및 지시를 한다.",
+          "\"... 침착하게 대응하세요.\", \"...지금 즉시 이동합니다.\" 등 냉정하고 단호한 어조로 말한다.",
+          "감정적인 표현은 최대한 자제하고, 논리적이고 이성적인 어조를 유지한다.",
+          "필요한 정보만 정확하게 전달하며, 군더더기 없이 핵심만 말하는 경향이 있다."
+        ]
+      }
+    }
+  },
+  "abilities": {
+    "intellectual": {
+      "InformationAnalysis": {
+        "initial_grade": "최상",
+        "description": "뛰어난 정보 분석 능력",
+        "details": "학생회 자료, 행정 문서 등에서 필요한 정보 정확히 파악, 상황 분석에 활용"
+      },
+      "PlanningSkill": {
+        "initial_grade": "최상",
+        "description": "철저한 계획 수립 능력",
+        "details": "구체적인 계획 및 실행 방안 수립, 효율적인 자원 관리"
+      },
+      "System 이해도": {
+        "initial_grade": "최상",
+        "description": "학교 시스템에 대한 높은 이해도",
+        "details": "교내 지도, 마스터 키, 시설 관리 문서 활용, 봉쇄 구역 개방 및 시설 복구"
+      },
+      "InvestigationSkill": {
+        "initial_grade": "우수",
+        "description": "비밀 조사 능력",
+        "details": "행정 문서, 회의록 분석, 비밀 연구 단서 발견 및 추적"
+      },
+      "Leadership": {
+        "initial_grade": "우수",
+        "description": "뛰어난 리더십",
+        "details": "긴급 상황에서 침착하게 지휘, 효율적인 의사 결정 및 업무 분담"
+      }
+    },
+    "unique": {
+      "정보_분석_능력": 95,
+      "계획_수립_능력": 90,
+      "시스템_이해": 95,
+      "조사_능력": 80,
+      "리더십": 85,
+      "위기_대응_능력": 90
+    }
+  },
+  "psychology": {
+    "MBTI": {"내향성": 80, "사고": 90, "판단": 90, "계획": 95},
+    "enneagram": {"1번_개혁가": 90, "6번_충성가": 75, "5번_탐구자": 70, "8번_도전자": 60, "2번_조력가": 50},
+    "mental_health": {
+      "불안": 50,
+      "우울": 30,
+      "강박": 70,
+      "자존감": 75,
+      "스트레스_저항": 80,
+      "감정_억제": 85,
+      "공감": 70,
+      "정서적_안정성": 80,
+      "수행_일관성": 90,
+      "배신감": 80
+    },
+    "social": {
+      "내향성": 75,
+      "협조적": 90,
+      "책임감": 95,
+      "의사소통_능력": 80,
+      "갈등_조정": 85,
+      "사회적_책임감": 90,
+      "헌신": 90,
+      "공동체_의식": 90
+    },
+    "emotional_stats": {
+      "trust": 60,       
+      "intimacy": 50,    
+      "respect": 85,     
+      "bond": 70,
+      "cooperation": 90,
+      "rivalry": 40,     
+      "fellowship": 85, 
+      "mentoring": 75,  
+      "hostility": 25,
+      "betrayal": 80,    
+      "resentment": 55,
+      "distrust": 70,   
+      "envy": 20,
+      "guilt": 65,      
+      "admiration": 60,
+      "loyalty": 85,    
+      "authority": 75,  
+      "leadership": 90, 
+      "love": 30,
+      "romantic": 10,
+      "passion": 80,    
+      "possessiveness": 20,
+      "protective": 65,  
+      "dependency": 30,
+      "responsibility": 95, 
+      "devotion": 90,    
+      "fear": 45,        
+      "avoidance": 35,
+      "rejection": 40,
+      "inferiority": 25, 
+      "intimidation": 30,
+      "superiority": 55, 
+      "familiarity": 60,
+      "curiosity": 70,   
+      "confusion": 30,   
+      "annoyance": 50,   
+      "awkwardness": 40, 
+      "discomfort": 45,  
+      "wariness": 65,    
+      "bewilderment": 20
+    }
+  },
+  "image_prompt_template": "a high school student, 유지은, 학생회 부회장, 교복, 차분한 표정, 안경, 학생회 자료실 배경, 서류와 지도, 이성적이고 냉철한 분위기"
+}

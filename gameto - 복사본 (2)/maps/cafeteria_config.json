@@ -1,0 +1,21 @@
+{
+  "map_name": "cafeteria",
+  "walkable_areas": [
+    [
+      189,
+      142,
+      929,
+      539
+    ],
+    [
+      204,
+      7,
+      294,
+      191
+    ]
+  ],
+  "start_position": [
+    758,
+    271
+  ]
+}

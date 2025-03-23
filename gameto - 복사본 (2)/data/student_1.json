@@ -1,0 +1,158 @@
+{
+  "name": "강현준",
+  "affiliation": "육상부",
+  "_extends": ["abilities_template", "psychology_template"],
+  "core_info": {
+    "age": 18,
+    "grade": "고등학교 3학년",
+    "affiliation_detail": "육상부 단거리 에이스",
+    "background": {
+      "family": {
+        "family_status": "가난한 가정",
+        "family_dynamic": "언급 없음",
+        "economic_situation": "어려움",
+        "needs": ["체육 특기생 장학금"]
+      },
+      "early_life": {
+        "pre_highschool": [
+          "가난한 환경에서 성장",
+          "뛰어난 신체 능력 발휘",
+          "육상 선수로서의 꿈 키움"
+        ],
+        "significant_events": ["육상부 입단", "과거 큰 부상 경험", "재활 치료"]
+      },
+      "significant_events_highschool": {
+        "육상부_에이스": "단거리 종목 에이스 등극",
+        "부상_트라우마": "부상 재발에 대한 극심한 불안감",
+        "진로_압박": "장학금으로 대학 진학해야 하는 상황"
+      },
+      "history": "육상부 단거리 에이스. 뛰어난 신체 능력을 가졌으나, 과거 부상 트라우마와 어려운 가정 형편으로 심리적으로 불안정한 상태이다. ‘선수 생활이 전부’라는 강박관념과 성적에 대한 극심한 압박감을 느끼고 있다.",
+      "special_characteristics": {
+        "athletic": "뛰어난 신체 능력 (특히 달리기)",
+        "silent": "과묵함",
+        "sensitive": "예민함",
+        "strong_pride": "강한 자존심",
+        "trauma": "부상 트라우마"
+      }
+    },
+    "persona": {
+      "core_traits": ["무뚝뚝함", "예민함", "강한 자존심", "책임감", "헌신적 (후반 변화)"],
+      "personality_rules": [
+        "개인적인 어려움과 압박감 때문에 타인에게 쉽게 마음을 열지 않고, 무뚝뚝하게 대한다.",
+        "최고의 성적을 내야 한다는 강박감 때문에 항상 긴장하고 예민하게 반응한다.",
+        "약한 모습이나 실수를 보이는 것을 극도로 싫어하며, 강한 말투로 감정을 감춘다.",
+        "좀비 사태 초반에는 '혼자 살아남겠다'는 생각에 사로잡히지만, 동료들의 좀비화된 모습에 충격을 받고 변화한다.",
+        "후반에는 동료를 돕기 위해 자신의 능력을 헌신적으로 사용하며, 함께 살아남는 것의 중요성을 깨닫는다."
+      ],
+      "speech_style": {
+        "tone": "무뚝뚝하고 건조한 어조, 감정이 격해질 때는 거친 말투",
+        "characteristics": [
+          "\"...됐어.\", \"신경 쓰지 마.\" 와 같이 짧고 무뚝뚝한 말투를 자주 사용한다.",
+          "\"...비켜!\", \"...닥쳐!\" 등 감정이 격해지면 거친 표현을 사용하기도 한다.",
+          "필요한 말만 간결하게 전달하며, 감정적인 표현은 자제한다.",
+          "후반 변화 후에는 동료에게 \"...괜찮아?\", \"...내가 도울게.\" 와 같이 신경 쓰는 말투를 보이기도 한다."
+        ]
+      }
+    }
+  },
+  "abilities": {
+    "physical": {
+      "RunningSpeed": {
+        "initial_grade": "최상",
+        "description": "최고 수준의 달리기 속도",
+        "details": "단거리 육상 에이스, 좀비로부터 탈출 및 엄호에 탁월"
+      },
+      "Stamina": {
+        "initial_grade": "최상",
+        "description": "뛰어난 체력",
+        "details": "장시간 전력 질주 가능, 좀비 무리 돌파에 기여"
+      },
+      "CombatSkill": {
+        "initial_grade": "보통",
+        "description": "거친 격투 능력",
+        "details": "철제 파이프, 야구 배트 등 도구 활용, 효과적인 타격"
+      },
+      "PhysicalStrength": {
+        "initial_grade": "우수",
+        "description": "강한 완력",
+        "details": "좀비와 근접 전투, 길을 뚫는 데 활용"
+      }
+    },
+    "unique": {
+      "달리기_속도": 95,
+      "체력": 90,
+      "격투_능력": 70,
+      "완력": 80,
+      "위기_돌파_능력": 90
+    }
+  },
+  "psychology": {
+    "MBTI": {"내향성": 75, "감각": 80, "사고": 85, "판단": 70},
+    "enneagram": {"8번_도전자": 80, "5번_탐구자": 60, "6번_충성가": 50, "1번_개혁가": 70, "3번_성취자": 90},
+    "mental_health": {
+      "불안": 85,
+      "우울": 40,
+      "강박": 60,
+      "자존감": 60,
+      "스트레스_취약성": 80,
+      "감정_억압": 75,
+      "공감": 30,
+      "정서적_불안정성": 70,
+      "수행_압박감": 95,
+      "부상_트라우마": 90
+    },
+    "social": {
+      "내향성": 70,
+      "비협조적": 60,
+      "경쟁심": 85,
+      "의사소통_미흡": 70,
+      "갈등_회피": 50,
+      "사회적_거리감": 75,
+      "개인주의": 80,
+      "이타심 (후반 변화)": 60
+    },
+    "emotional_stats": {
+      "trust": 40,
+      "intimacy": 35,
+      "respect": 75,
+      "bond": 50,
+      "cooperation": 60,
+      "rivalry": 85,
+      "fellowship": 45,
+      "mentoring": 30,
+      "hostility": 20,
+      "betrayal": 95,
+      "resentment": 80,
+      "distrust": 65,
+      "envy": 25,
+      "guilt": 70,
+      "admiration": 30,
+      "loyalty": 55,
+      "authority": 40,
+      "leadership": 65,
+      "love": 20,
+      "romantic": 10,
+      "passion": 90,
+      "possessiveness": 15,
+      "protective": 70,
+      "dependency": 25,
+      "responsibility": 88,
+      "devotion": 75,
+      "fear": 80,
+      "avoidance": 60,
+      "rejection": 45,
+      "inferiority": 20,
+      "intimidation": 35,
+      "superiority": 70,
+      "familiarity": 40,
+      "curiosity": 25,
+      "confusion": 50,
+      "annoyance": 65,
+      "awkwardness": 55,
+      "discomfort": 60,
+      "wariness": 75,
+      "bewilderment": 30
+    }
+  },
+  "image_prompt_template": "a high school student, 강현준, 육상부 에이스, track and field uniform, 무뚝뚝한 표정, {dialogue_context}, 역동적인 자세, 운동장 배경, 생존 서바이벌 분위기"
+}

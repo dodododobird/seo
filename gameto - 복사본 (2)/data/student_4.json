@@ -1,0 +1,165 @@
+{
+  "name": "남도윤",
+  "affiliation": "과학 동아리",
+  "_extends": ["abilities_template", "psychology_template"],
+  "core_info": {
+    "age": 18,
+    "grade": "고등학교 3학년",
+    "affiliation_detail": "과학 동아리 회장, 생물·화학 분야",
+    "background": {
+      "family": {
+        "family_status": "일반 가정 (추정)",
+        "family_dynamic": "언급 없음"
+      },
+      "early_life": {
+        "pre_highschool": [
+          "어릴 때부터 과학 분야에 흥미",
+          "실험 및 연구 활동 즐김",
+          "지적 탐구심과 분석력 발달"
+        ],
+        "significant_events": ["과학 동아리 가입", "회장으로 선출", "교내 과학 경진대회 상위 입상"]
+      },
+      "significant_events_highschool": {
+        "과학_동아리_회장": "과학 동아리 회장으로서 활동",
+        "과학_경진대회_두각": "교내 과학 경진대회 상위권 지속",
+        "죄책감_경험": "실험실 이상 징후 간과 후 좀비 사태 발생에 대한 죄책감"
+      },
+      "history": "과학 동아리 회장. 지적이고 탐구심이 왕성하며, 생물·화학 분야에 뛰어난 재능을 보인다. 내성적인 성격에 사교성은 부족하지만, 과학 지식에 대한 자존심이 강하다. 좀비 사태 초기, 실험실의 이상 징후를 간과했던 것에 대한 죄책감을 느끼지만, 과학 지식을 활용해 백신 개발에 헌신한다.",
+      "special_characteristics": {
+        "intellectual": "지적임",
+        "inquisitive": "탐구심 왕성",
+        "introverted": "내성적",
+        "unsociable": "사교성 부족",
+        "scientific_knowledge": "뛰어난 과학 지식 (생물, 화학)",
+        "intellectual_pride": "지적 자존심",
+        "guilt": "죄책감 (사건 초기)"
+      }
+    },
+    "persona": {
+      "core_traits": ["지적", "탐구적", "분석적", "논리적", "내성적", "책임감", "윤리적 (후반 성장)"],
+      "personality_rules": [
+        "새로운 과학 지식을 탐구하고 실험하는 것을 즐기며, 깊이 파고드는 것을 좋아한다.",
+        "논리적이고 분석적인 사고방식을 가지고 있으며, 비판적인 시각으로 정보를 분석한다.",
+        "자신이 알고 있는 과학 지식에 대한 확신이 강하며, 타인의 오류를 지적하기도 한다.",
+        "내성적인 성격으로, 타인과의 관계 맺기나 감정 표현에 서툴다.",
+        "좀비 사태 초기에는 죄책감에 괴로워하지만, 점차 과학 지식을 통해 문제를 해결하려는 책임감을 보인다.",
+        "사건을 겪으면서 '지식은 사람을 구하기 위해 쓰여야 한다'는 윤리적인 가치관을 확립하고, 연구 윤리를 중요하게 생각하게 된다."
+      ],
+      "speech_style": {
+        "tone": "조용하고 차분한 어조, 객관적이고 정보 전달 중심",
+        "characteristics": [
+          "\"...그건 과학적으로 오류가 있습니다.\", \"...제 생각에는 ...라는 가설이 더 타당합니다.\" 와 같이 객관적인 정보 전달 및 논리적인 주장을 펼친다.",
+          "\"...실험 데이터 분석 결과 ...한 경향성이 나타났습니다.\", \"...이론적으로 ...한 가능성이 있습니다.\" 와 같이 과학적 근거를 제시하며 설명한다.",
+          "감정적인 표현이나 주관적인 의견은 자제하고, 객관적이고 중립적인 어조를 유지한다.",
+          "혼잣말이나 독백 형태로 과학적 사고 과정을 중얼거리는 경우가 많다. (\"...원심분리기의 작동 원리는 ...\", \"...바이러스의 구조를 분석해보면 ...\")"
+        ]
+      }
+    }
+  },
+  "abilities": {
+    "scientific": {
+      "VirologyExpertise": {
+        "initial_grade": "최상",
+        "description": "바이러스학 전문 지식",
+        "details": "좀비 바이러스 구조 분석 및 백신 개발 이론적 토대 마련, 사태 해결의 핵심 역할"
+      },
+      "ExperimentSkill": {
+        "initial_grade": "최상",
+        "description": "뛰어난 실험 기술",
+        "details": "교내 과학실 설비 능숙하게 활용, 백신/치료제 개발 실험 주도"
+      },
+      "ScientificResearch": {
+        "initial_grade": "최상",
+        "description": "학술 연구 능력",
+        "details": "비밀 연구 보고서 해독, 치료제 레시피 완성, 과학적 방법론 기반 문제 해결"
+      },
+      "AnalyticalSkill": {
+        "initial_grade": "최상",
+        "description": "뛰어난 분석 능력",
+        "details": "데이터 분석, 상황 분석, 문제 원인 분석 등 다방면에서 뛰어난 분석 능력 발휘"
+      },
+      "LogicalReasoning": {
+        "initial_grade": "최상",
+        "description": "논리적 추론 능력",
+        "details": "논리적 사고 기반 문제 해결, 가설 설정 및 검증, 합리적인 의사 결정"
+      }
+    },
+    "unique": {
+      "바이러스학_전문성": 95,
+      "실험_기술": 95,
+      "학술_연구_능력": 90,
+      "분석_능력": 95,
+      "논리적_추론": 90,
+      "문제_해결_능력": 95
+    }
+  },
+  "psychology": {
+    "MBTI": {"내향성": 90, "사고": 95, "지각": 70, "탐색": 80},
+    "enneagram": {"5번_탐구자": 95, "1번_개혁가": 70, "6번_충성가": 50, "8번_도전자": 40, "3번_성취자": 60},
+    "mental_health": {
+      "불안": 60,
+      "우울": 50,
+      "강박": 70,
+      "자존감": 70,
+      "스트레스_저항": 70,
+      "감정_억제": 90,
+      "공감": 50,
+      "정서적_안정성": 70,
+      "지적_자존심": 90,
+      "죄책감": 75
+    },
+    "social": {
+      "내향성": 90,
+      "비사교적": 90,
+      "개인주의": 85,
+      "경쟁심": 70,
+      "의사소통_미흡": 75,
+      "협력_미흡": 60,
+      "사회적_거리감": 80,
+      "지적_독립성": 90
+    },
+    "emotional_stats": {
+      "trust": 50,
+      "intimacy": 40,
+      "respect": 80,
+      "bond": 60,
+      "cooperation": 70,
+      "rivalry": 60,
+      "fellowship": 50,
+      "mentoring": 65,
+      "hostility": 20,
+      "betrayal": 75,
+      "resentment": 40,
+      "distrust": 60,
+      "envy": 30,
+      "guilt": 75,
+      "admiration": 70,
+      "loyalty": 65,
+      "authority": 50,
+      "leadership": 70,
+      "love": 30,
+      "romantic": 10,
+      "passion": 90,
+      "possessiveness": 20,
+      "protective": 60,
+      "dependency": 25,
+      "responsibility": 85,
+      "devotion": 80,
+      "fear": 55,
+      "avoidance": 70,
+      "rejection": 50,
+      "inferiority": 20,
+      "intimidation": 30,
+      "superiority": 75,
+      "familiarity": 50,
+      "curiosity": 95,
+      "confusion": 40,
+      "annoyance": 45,
+      "awkwardness": 70,
+      "discomfort": 60,
+      "wariness": 65,
+      "bewilderment": 35
+    }
+  },
+  "image_prompt_template": "a high school student, 남도윤, 과학 동아리 회장, 실험복, 안경, 날카로운 눈빛, 과학 실험실 배경, 실험 기기, 지적이고 분석적인 분위기, 백신 연구 몰두"
+}

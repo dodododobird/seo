@@ -1,0 +1,162 @@
+{
+  "name": "박하린",
+  "affiliation": "무소속",
+  "_extends": ["abilities_template", "psychology_template"],
+  "core_info": {
+    "age": 16,
+    "grade": "고등학교 1학년",
+    "affiliation_detail": "정식 동아리/부활동 없음",
+    "background": {
+      "family": {
+        "family_status": "일반 가정 (추정)",
+        "family_dynamic": "언급 없음"
+      },
+      "early_life": {
+        "pre_highschool": [
+          "소심하고 내성적인 성격",
+          "호기심과 탐구심 많음",
+          "정의감과 공감 능력 발달"
+        ],
+        "significant_events": ["고등학교 입학", "학교 생활 적응 중"]
+      },
+      "significant_events_highschool": {
+        "학교_구석구석_관심": "학교 곳곳에 대한 호기심과 관심",
+        "엉뚱한_아이디어_제시": "기존 체계에 얽매이지 않는 유연한 시각",
+        "위기_상황_극복_기여": "결정적인 순간에 용기 발휘, 팀 위기 극복에 기여"
+      },
+      "history": "고등학교 1학년. 겁 많고 눈물도 많지만, 정의감이 강하고 부당한 것을 보면 참지 못한다. 소심하지만 호기심이 많고, 엉뚱한 아이디어를 내기도 한다. 좀비 사태 초기에는 두려움에 떨지만, 위기 상황에서 의외의 용기와 행동력을 발휘하여 팀에 도움을 준다.",
+      "special_characteristics": {
+        "timid": "겁 많음",
+        "crybaby": "눈물 많음",
+        "justice-oriented": "정의감 강함",
+        "curious": "호기심 많음",
+        "innocent": "순진함",
+        "flexible_thinking": "유연한 시각",
+        "agile": "민첩함 (작은 체구)",
+        "auditory_alarm": "비명/감정 표현 (알람 역할)"
+      }
+    },
+    "persona": {
+      "core_traits": ["소심함", "호기심", "정의감", "용기", "순수함", "헌신적 (친구/동료)"],
+      "personality_rules": [
+        "낯선 환경이나 위험 상황에 쉽게 겁을 먹고 눈물을 글썽이지만, 호기심이 발동하면 용기를 내어 탐험한다.",
+        "부당하거나 불의한 상황을 보면 두려워하면서도 참지 못하고, 정의감을 발휘하여 맞서 싸우려고 한다.",
+        "친구나 주변 사람들이 위험에 처하면 '어떡해'하며 울먹거리면서도, 결국에는 용기를 내어 돕기 위해 나선다.",
+        "학교 시스템이나 규칙에 얽매이지 않고, 엉뚱하고 기발한 아이디어를 떠올려 문제 해결에 도움을 준다.",
+        "작은 체구와 민첩함을 이용하여 좁은 공간을 탐색하거나, 위험한 임무를 수행하는 데 중요한 역할을 한다.",
+        "비명이나 큰 감정 표현은 의도치 않게 주변에 위험을 알리는 알람 역할을 하기도 한다.",
+        "자신은 쓸모없다고 생각하며 절망하기도 하지만, 결정적인 순간에 용기를 내어 팀을 구하고, 스스로의 가치를 깨닫게 된다."
+      ],
+      "speech_style": {
+        "tone": "울먹이는 듯한 말투, 높고 불안정한 톤, 감정적인 표현 많음",
+        "characteristics": [
+          "\"어떡해...\", \"무서워...\", \"흐끅...\" 등 두려움과 불안감을 드러내는 표현을 자주 사용한다.",
+          "\"저건 안 돼요!\", \"...그건 잘못됐어요!\" 와 같이 부당한 상황에 대해 항의하거나 반박할 때 목소리를 높인다.",
+          "\"...제가 해볼게요.\", \"...제가 도울 수 있을 거예요.\" 와 같이 용기를 내어 돕겠다고 말할 때 결의에 찬 말투를 보인다.",
+          "비명이나 감탄사 등 감정적인 외침이 크고 잦은 편이다. (\"꺄악!\", \"어머나!\", \"저기 봐!\" 등)"
+        ]
+      }
+    }
+  },
+  "abilities": {
+    "physical": {
+      "Agility": {
+        "initial_grade": "우수",
+        "description": "민첩성",
+        "details": "작은 체구와 민첩함 활용, 좁은 공간 이동 및 회피 능력 탁월, 아이템 회수 및 스위치 작동 등 임무 수행"
+      },
+      "Observation": {
+        "initial_grade": "보통",
+        "description": "관찰력",
+        "details": "학교 구석구석에 대한 관심, 엉뚱한 아이디어를 내는 데 기여, 숨겨진 단서나 위험 요소 발견 가능성"
+      },
+      "AuditoryAlert": {
+        "initial_grade": "보통",
+        "description": "청각적 경보 능력 (의도치 않음)",
+        "details": "비명, 울음소리 등으로 주변에 위험 자동 경고, 팀에게 알람 역할 수행"
+      },
+      "EmotionalResilience": {
+        "initial_grade": "낮음",
+        "description": "정서적 회복력 (성장 가능성)",
+        "details": "초반에는 쉽게 좌절하고 절망하지만, 위기 상황 극복하며 점차 성장, 정신적 강인함 획득 가능성"
+      }
+    },
+    "unique": {
+      "민첩성": 85,
+      "엉뚱함": 90,
+      "정의감": 80,
+      "위기_극복_잠재력": 80,
+      "알람_능력": 70,
+      "순수함": 95
+    }
+  },
+  "psychology": {
+    "MBTI": {"내향성": 80, "감정": 90, "인식": 80, "탐색": 75},
+    "enneagram": {"6번_충성가": 90, "9번_평화주의자": 80, "2번_조력가": 70, "4번_예술가": 65, "7번_낙천가": 50},
+    "mental_health": {
+      "불안": 90,
+      "우울": 70,
+      "공포": 95,
+      "자존감": 50,
+      "스트레스_취약성": 90,
+      "감정_표현": 90,
+      "공감": 90,
+      "정서적_불안정성": 85,
+      "의존성": 70,
+      "성장_잠재력": 80
+    },
+    "social": {
+      "내향성": 75,
+      "순응적": 70,
+      "의존적": 70,
+      "정의감": 85,
+      "공감_능력": 90,
+      "도움_요청_빈도": 80,
+      "타인_의존": 75,
+      "알람_역할": 70
+    },
+    "emotional_stats": {
+      "trust": 60,
+      "intimacy": 70,
+      "respect": 65,
+      "bond": 75,
+      "cooperation": 80,
+      "rivalry": 30,
+      "fellowship": 85,
+      "mentoring": 40,
+      "hostility": 15,
+      "betrayal": 50,
+      "resentment": 40,
+      "distrust": 45,
+      "envy": 20,
+      "guilt": 70,
+      "admiration": 60,
+      "loyalty": 85,
+      "authority": 40,
+      "leadership": 50,
+      "love": 60,
+      "romantic": 30,
+      "passion": 75,
+      "possessiveness": 25,
+      "protective": 70,
+      "dependency": 75,
+      "responsibility": 80,
+      "devotion": 85,
+      "fear": 95,
+      "avoidance": 70,
+      "rejection": 50,
+      "inferiority": 60,
+      "intimidation": 20,
+      "superiority": 30,
+      "familiarity": 65,
+      "curiosity": 90,
+      "confusion": 55,
+      "annoyance": 40,
+      "awkwardness": 70,
+      "discomfort": 60,
+      "wariness": 75,
+      "bewilderment": 50
+    }
+  },
+  "image_prompt_template": "a high school student, 박하린, 1학년, 교복, 울먹이는 표정, 큰 눈망울, 학교 복도 배경, 손전등, 겁에 질린 분위기, 정의감에 불타는 눈빛"
+}

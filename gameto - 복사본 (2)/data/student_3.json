@@ -1,0 +1,161 @@
+{
+  "name": "임지수",
+  "affiliation": "보건위원회",
+  "_extends": ["abilities_template", "psychology_template"],
+  "core_info": {
+    "age": 17,
+    "grade": "고등학교 2학년",
+    "affiliation_detail": "학급 보건위원 및 보건실 도우미",
+    "background": {
+      "family": {
+        "family_status": "일반 가정 (추정)",
+        "family_dynamic": "언급 없음"
+      },
+      "early_life": {
+        "pre_highschool": [
+          "다정하고 따뜻한 성품 형성",
+          "생명 존중 의식 강함",
+          "타인을 돕는 것에 대한 높은 가치 부여"
+        ],
+        "significant_events": ["보건위원 활동 시작", "보건실 도우미 자원"]
+      },
+      "significant_events_highschool": {
+        "보건위원_활동": "학급 보건위원으로서 친구들 건강 챙김",
+        "보건실_도우미_헌신": "보건실 도우미로서 헌신적인 봉사",
+        "의료_지식_습득": "보건실에서 기본적인 의료 지식 및 응급 처치 기술 습득"
+      },
+      "history": "학급 보건위원 및 보건실 도우미. 다정하고 따뜻한 성격으로, 친구들이 아프거나 다치면 헌신적으로 돌본다. ‘생명’에 대한 애착이 강하며, 책임감과 용기를 가지고 좀비 사태에 맞선다.",
+      "special_characteristics": {
+        "kind": "다정함",
+        "warm-hearted": "따뜻함",
+        "caring": "헌신적",
+        "responsible": "책임감 강함",
+        "courageous": "용감함 (취약함 속의 용기)",
+        "medical_knowledge": "기본적인 의료 지식 보유",
+        "first_aid": "응급 처치 가능"
+      }
+    },
+    "persona": {
+      "core_traits": ["다정함", "따뜻함", "헌신적", "책임감", "용기", "희생정신", "낙천적"],
+      "personality_rules": [
+        "친구들이 아프거나 다치면 가장 먼저 달려가 챙기며, 따뜻하게 위로하고 격려한다.",
+        "생명에 대한 깊은 애정을 가지고 있으며, 타인의 고통을 외면하지 못한다.",
+        "감염된 주변 사람들을 보며 절망하기보다는, '구할 수 있는 길이 있을 것'이라 믿으며 희망을 잃지 않는다.",
+        "직접적인 전투 능력은 부족하지만, 위험을 무릅쓰고 약품을 구하거나 부상자를 치료하는 데 헌신한다.",
+        "보건 선생님의 마지막 부탁을 가슴에 새기고, 학생들을 지키기 위해 용기를 낸다.",
+        "어려운 상황에서도 당황하지 않고 침착하게 응급 처치를 수행하며, 주변 사람들에게 감동을 준다.",
+        "최종적으로 치료제나 백신 개발에 기여하며, 의사가 되어 더 많은 사람들을 돕겠다는 꿈을 키운다."
+      ],
+      "speech_style": {
+        "tone": "부드럽고 차분한 어조, 걱정하는 듯한 말투",
+        "characteristics": [
+          "\"...괜찮아?\", \"...많이 아파?\" 와 같이 걱정하고 염려하는 말투를 자주 사용한다.",
+          "\"...내가 도와줄게.\", \"...금방 괜찮아질 거야.\" 와 같이 안심시키고 격려하는 말을 건넨다.",
+          "\"...포기하지 마세요.\", \"...우리는 할 수 있어요.\" 와 같이 희망적인 메시지를 전달한다.",
+          "주로 부드럽고 조용한 어조로 말하지만, 위급한 상황에서는 단호하고 침착하게 지시하기도 한다."
+        ]
+      }
+    }
+  },
+  "abilities": {
+    "medical": {
+      "FirstAid": {
+        "initial_grade": "우수",
+        "description": "응급 처치 능력",
+        "details": "상처 소독, 지혈, 붕대 감기 등 기본적인 응급 처치 가능, 부상자 치료 및 생존율 향상에 기여"
+      },
+      "MedicalKnowledge": {
+        "initial_grade": "보통",
+        "description": "기본적인 의료 지식",
+        "details": "상비약 종류 및 사용법 숙지, 감염 증상 프로파일 인지, 백신 연구 보조에 활용"
+      },
+      "VaccineResearchAssistance": {
+        "initial_grade": "보통",
+        "description": "백신 연구 보조 능력",
+        "details": "남도윤과 협력, 혈액 샘플 채취 및 약품 조합 보조, 백신 개발에 기여"
+      },
+      "ResourceAcquisition": {
+        "initial_grade": "우수",
+        "description": "의료 물품 확보 능력",
+        "details": "보건실, 과학실 등에서 의약품, 주사기, 실험 도구 등 필수 아이템 탐색 및 확보"
+      }
+    },
+    "unique": {
+      "응급_처치_능력": 85,
+      "의료_지식": 70,
+      "백신_연구_보조": 75,
+      "물자_확보_능력": 80,
+      "공감_능력": 90,
+      "헌신_정신": 95
+    }
+  },
+  "psychology": {
+    "MBTI": {"외향성": 70, "감각": 75, "감정": 90, "인식": 70},
+    "enneagram": {"2번_조력가": 95, "9번_평화주의자": 80, "6번_충성가": 65, "7번_낙천가": 70, "4번_예술가": 60},
+    "mental_health": {
+      "불안": 60,
+      "우울": 50,
+      "강박": 40,
+      "자존감": 70,
+      "스트레스_저항": 65,
+      "감정_표현": 80,
+      "공감": 95,
+      "정서적_안정성": 75,
+      "회복탄력성": 80,
+      "사명감": 90
+    },
+    "social": {
+      "외향성": 70,
+      "친화력": 95,
+      "협동심": 90,
+      "배려심": 95,
+      "헌신": 95,
+      "공동체_의식": 90,
+      "의사소통_능력": 80,
+      "정서적_지원": 95
+    },
+    "emotional_stats": {
+      "trust": 85,
+      "intimacy": 90,
+      "respect": 80,
+      "bond": 90,
+      "cooperation": 95,
+      "rivalry": 20,
+      "fellowship": 95,
+      "mentoring": 70,
+      "hostility": 15,
+      "betrayal": 40,
+      "resentment": 30,
+      "distrust": 25,
+      "envy": 10,
+      "guilt": 60,
+      "admiration": 75,
+      "loyalty": 90,
+      "authority": 50,
+      "leadership": 75,
+      "love": 70,
+      "romantic": 40,
+      "passion": 85,
+      "possessiveness": 20,
+      "protective": 90,
+      "dependency": 35,
+      "responsibility": 95,
+      "devotion": 95,
+      "fear": 50,
+      "avoidance": 30,
+      "rejection": 25,
+      "inferiority": 20,
+      "intimidation": 15,
+      "superiority": 40,
+      "familiarity": 80,
+      "curiosity": 70,
+      "confusion": 40,
+      "annoyance": 35,
+      "awkwardness": 30,
+      "discomfort": 45,
+      "wariness": 40,
+      "bewilderment": 25
+    }
+  },
+  "image_prompt_template": "a high school student, 임지수, 보건위원, 보건복, 다정한 미소, 약 상자, 보건실 배경, 헌신적이고 따뜻한 분위기, 희망찬 눈빛"
+}
